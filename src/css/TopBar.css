@@ -1,0 +1,61 @@
+/* Top info section styling */
+.topbar .top-info {
+    letter-spacing: 1px;
+  }
+  
+  /* Social links container */
+  .topbar .top-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Spacing between social icons */
+  .topbar .top-link a {
+    margin-right: 10px;
+  }
+ 
+  .top-info small:hover,
+  .top-info i:hover {
+    color: #1abc9c !important;
+  }
+  .top-info a:hover{
+    color: #1abc9c !important;
+    text-decoration: underline !important;
+  }
+  /* Make the button a perfect circle with centered icon */
+ .btn-sm-square {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% !important;
+    padding: 0;
+  }
+  
+  /* Icon styling inside the button */
+   .btn-sm-square i {
+    font-size: 1rem;
+    color: white; /* default color */
+    transition: color 0.3s ease;
+  }
+  
+  /* On hover: change icon color */
+   .btn-sm-square:hover i {
+    color: #1abc9c; /* or any hover color */
+  }
+  
+  /* Animation keyframes for horizontal scroll */
+  @keyframes scrollNote {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  .topbar .btn-sm-square:hover {
+    transform: scale(1.3);
+  }
+  

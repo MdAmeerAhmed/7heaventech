@@ -1,0 +1,68 @@
+.products-f-image {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .products-f-image img {
+    max-height: 300px;
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .products-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .products-hover:after {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+  }
+  
+  .products-hover a {
+    background: #1abc9c;
+    color: #fff;
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    bottom: -35%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    z-index: 2;
+    transition: 0.4s;
+  }
+  
+  .products-hover a:hover {
+    background: #000;
+    border-color: #444;
+    text-decoration: none;
+  }
+  
+  .products-hover a i.fa {
+    margin-right: 5px;
+  }
+  
+  /* 🔥 Hover effects */
+  .products-f-image:hover .products-hover:after {
+    left: 0;
+  }
+  
+  .products-f-image:hover .products-hover a.view-details-link {
+    bottom: 40%;
+  }
+  
