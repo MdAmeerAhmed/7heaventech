@@ -8,47 +8,47 @@ function LastestProduct() {
     const products = [
         {
           img: "img/product-1.jpg",
-          link: "PropertyManagementSoftware.php",
+          link: "/property-management",
           title: "Property Management Software",
         },
         {
           img: "img/product-2.jpg",
-          link: "propertycrm.php",
+          link: "/property-crm",
           title: "Property CRM",
         },
         {
           img: "img/product-3.jpg",
-          link: "propertybroker.php",
+          link: "/property-broker",
           title: "Property Broker Management",
         },
         {
           img: "img/product-4.jpg",
-          link: "workorder.php",
+          link: "/work-order",
           title: "Work Order Management",
         },
         {
           img: "img/product-5.jpg",
-          link: "Maidservice.php",
+          link: "/maid-service",
           title: "Maid Service Management",
         },
         {
           img: "img/product-7.jpg",
-          link: "Autocarservice.php",
+          link: "/electronic-service",
           title: "Electronic Service Center Management",
         },
         {
           img: "img/product-8.jpg",
-          link: "Autocarservice.php",
+          link: "/auto-garage",
           title: "Autocar Service Center Management",
         },
         {
           img: "img/product-5.jpg",
-          link: "Centraldoc.php",
+          link: "/centralised-document",
           title: "Centralized Document Management",
         },
         {
           img: "img/product-9.jpg",
-          link: "Inventoryman.php",
+          link: "/inventory-management",
           title: "Inventory Management",
         },
       ];
