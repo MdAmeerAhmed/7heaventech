@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "../App.css";
 import { NavLink, Link } from "react-router-dom";
 
-function NavBar() {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -109,4 +109,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
