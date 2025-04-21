@@ -4,6 +4,7 @@ import "../css/owl.carousel.css";
 import '../App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import { Link } from 'react-router';
 function Carousel() {
   return (
      <>
