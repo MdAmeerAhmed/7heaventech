@@ -2,6 +2,7 @@ import React from "react";
 // import "../App.css"; // Ensure you create this CSS file for styling
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/product-hover.css";
+import { Link } from "react-router";
 
 const cards = [
   {
