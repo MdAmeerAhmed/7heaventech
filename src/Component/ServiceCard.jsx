@@ -70,9 +70,9 @@ const ServiceCards = () => {
                             alt={item.name}
                           />
                           <div className="products-hover" style={{ border: "1px solid #ddd" }}>
-                            <a href={item.link} className="view-details-link" style={{ textDecoration: "none" }}>
+                            <Link to={item.link} className="view-details-link" style={{ textDecoration: "none" }}>
                               <i className="bi bi-link" /> Details
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -80,7 +80,7 @@ const ServiceCards = () => {
                         <h3 className="card-title text-white" style={{ fontSize: "14px", margin: "0", padding: "2px" }}>
                           {item.name}
                         </h3>
-                        <a href={item.link} className="requirement-link">Enter Requirements</a>
+                        <Link to={item.link} className="requirement-link">Enter Requirements</Link>
                       </div>
                     </div>
                   </div>

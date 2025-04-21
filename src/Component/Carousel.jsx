@@ -40,9 +40,9 @@ function Carousel() {
                             companies, leasing companies, and broker firms. It includes ERP
                             capabilities tailored for the UAE market.
                           </p>
-                          <a href="/property-management" className="readmore">
-                            Learn more
-                          </a>
+                          <Link to="/property-management" className="readmore">
+                          Learn more
+                        </Link>
                         </div>
                       </div>
                     </div>
@@ -66,9 +66,9 @@ function Carousel() {
                             A software solution to manage and maintain marketing leads, assign
                             tasks, send emails, and handle sales funnels.
                           </p>
-                          <a href="/property-crm" className="readmore">
+                          <Link to="/property-crm" className="readmore">
                             Learn more
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -92,9 +92,9 @@ function Carousel() {
                             We create custom web applications, ERP, CRM, e-commerce sites,
                             mobile apps, and other tailored solutions.
                           </p>
-                          <a href="/software-services" className="readmore">
+                          <Link to="/software-services" className="readmore">
                             Learn more
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -123,37 +123,37 @@ function Carousel() {
       <div className="row ">
         <div className="col-md-3 col-sm-6">
           <div className="single-promo ">
-            <a href="software-services">
+            <Link to="software-services">
               {" "}
               <i className="bi bi-code" />
               <p>Software Development</p>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-md-3 col-sm-6">
           <div className="single-promo ">
-            <a href="all-product">
+            <Link to="all-product">
               {" "}
               <i className="bi bi-server" />
               <p>Software Products</p>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-md-3 col-sm-6">
-          <a href="HardwareServices.php"> </a>
+          <Link to="HardwareServices.php"> </Link>
           <div className="single-promo ">
-            <a href="hardware-services">
+            <Link to="hardware-services">
               <i className="bi bi-plug" />
               <p>Hardware Products</p>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-md-3 col-sm-6">
           <div className="single-promo ">
-            <a href="all-product">
+            <Link to="all-product">
               <i className="bi bi-gift" />
               <p>New products</p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

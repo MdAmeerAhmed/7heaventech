@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css/navigation";
+import { Link } from 'react-router';
 function LastestProduct() {
     const products = [
         {
@@ -84,25 +85,25 @@ function LastestProduct() {
                       <div className="product-f-image card-img-top ">
                         <img src={product.img} alt={product.title} />
                         <div className="product-hover"style={{border: "1px solid #ddd"}}>
-                          <a href={product.link} className="add-to-cart-link" style={{textDecoration:"none"}}>
+                          <Link to={product.link} className="add-to-cart-link" style={{textDecoration:"none"}}>
                             <i className="bi bi-smile" /> Book Demo
-                          </a>
-                          <a href={product.link} className="view-details-link" style={{textDecoration:"none"}}>
+                          </Link>
+                          <Link to={product.link} className="view-details-link" style={{textDecoration:"none"}}>
                             <i className="bi bi-link" /> See details
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="card-body text-center">
                         <h2 className="card-title">
-                          <a style={{textDecoration:"none"}} href={product.link}>{product.title}</a>
+                          <Link style={{textDecoration:"none"}} to={product.link}>{product.title}</Link>
                         </h2>
                         <div className="product-carousel-price">
-                          <a
+                          <Link
                             style={{ color: "#1abc9c", fontWeight: "bold" ,textDecoration:"none"}}
-                            href={product.link}
+                            to={product.link}
                           >
                             More Details...
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
