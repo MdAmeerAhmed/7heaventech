@@ -1,6 +1,6 @@
 import React from 'react'
 import "../App.css";
-
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
@@ -52,19 +52,19 @@ function Footer() {
             <h2 className="footer-wid-title">User Navigation </h2>
             <ul>
               <li>
-                <a href="#">User Login</a>
+                <Link href="#">User Login</Link>
               </li>
               <li>
-                <a href="AllProducts.html">Products</a>
+                <Link to="/all-products">Products</Link>
               </li>
               <li>
-                <a href="SoftwareServices.php">Software Services</a>
+                <Link to="/software-services">Software Services</Link>
               </li>
               <li>
-                <a href="HardwareServices.php">Hardware Services</a>
+                <Link to="/hardware-services">Hardware Services</Link>
               </li>
               <li>
-                <a href="MediaServices.php">Design Services</a>
+                <Link to="/media-services">Design Services</Link>
               </li>
             </ul>
           </div>
@@ -74,21 +74,21 @@ function Footer() {
             <h2 className="footer-wid-title">Products</h2>
             <ul>
               <li>
-                <a href="PropertyManagementSoftware.php">
+                <Link to="/property-management">
                   Property/Rental Manager Software
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="Inventoryman.php">Inventory Management</a>
+                <Link to="/inventory-management">Inventory Management</Link>
               </li>
               <li>
-                <a href="propertycrm.php">Property CRM</a>
+                <Link to="/property-crm">Property CRM</Link>
               </li>
               <li>
-                <a href="Maidservice.php">Maid Management Software</a>
+                <Link to="/maid-service">Maid Management Software</Link>
               </li>
               <li>
-                <a href="workorder.php">Work Order Management</a>
+                <Link to="/work-order">Work Order Management</Link>
               </li>
             </ul>
           </div>
