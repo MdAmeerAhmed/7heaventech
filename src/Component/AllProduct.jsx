@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/product-hover.css"
+import { Link } from 'react-router';
 function AllProduct() {
     const products = [
       {
@@ -78,7 +79,7 @@ function AllProduct() {
                       </div>
                     </div>
                     <h4>
-                      <a style={{ color: "black" }} href={product.link}>{product.name}</a>
+                      <Link style={{ color: "black" }} to={product.link}>{product.name}</Link>
                     </h4>
                     <div className="product-carousel-price">
                       <Link to={product.link} >View Details</Link>
