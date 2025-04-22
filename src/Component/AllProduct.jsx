@@ -74,14 +74,14 @@ function AllProduct() {
                   <div className="products-f-image card-img-top">
                       <img src={product.img} alt={product.name} className="product-img" />
                       <div className="products-hover">
-                        <a href="contact.php" className="book-demo-btn">Book Demo</a>
+                        <Link to="contact" className="book-demo-btn">Book Demo</Link>
                       </div>
                     </div>
                     <h4>
                       <a style={{ color: "black" }} href={product.link}>{product.name}</a>
                     </h4>
                     <div className="product-carousel-price">
-                      <a href={product.link} >View Details</a>
+                      <Link to={product.link} >View Details</Link>
                     </div>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ function AllProduct() {
           <img src="img/product-11.jpg" alt={product.name} className="product-img" />
         </div>
         <h4 className="text-center">
-          <a href="#">{product.name}</a>
+          <Link to="#">{product.name}</Link>
         </h4>
         <div className="product-carousel-price text-center">
           <p>{product.date}</p>
