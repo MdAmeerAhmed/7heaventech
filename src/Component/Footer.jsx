@@ -55,7 +55,7 @@ function Footer() {
                 <Link href="#">User Login</Link>
               </li>
               <li>
-                <Link to="/all-products">Products</Link>
+                <Link to="/all-product">Products</Link>
               </li>
               <li>
                 <Link to="/software-services">Software Services</Link>
